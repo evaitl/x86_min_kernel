@@ -5,5 +5,6 @@ edition="2018"
 authors=["evaitl"]
 
 [dependencies]
+cpuio="^0.3.0"
 
 

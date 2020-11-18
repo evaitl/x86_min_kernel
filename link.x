@@ -5,5 +5,4 @@ SECTIONS {
                    *(.rodata) *(.rodata.*) }
          .data : { *(.data) }
          .bss : { *(.bss) }
-         
 }
