@@ -11,7 +11,7 @@ unsafe fn is_transmit_empty() -> bool {
     inb(PORT + 5) & 0x20 != 0
 }
 unsafe fn write_serial(ch: u8) {
-    //    while !is_transmit_empty() {}
+    while !is_transmit_empty() {}
     outb(ch, PORT);
 }
 
